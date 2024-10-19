@@ -1,0 +1,32 @@
+using System;
+class Program
+
+{
+    static void Main()
+    {
+        Console.WriteLine("1.sayiyi giriniz:");
+        int sayi1 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("2.sayiyi giriniz:");
+        int sayi2 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("3.sayiyi giriniz:");
+        int sayi3 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("4.sayiyi giriniz:");
+        int sayi4 = int.Parse(Console.ReadLine());
+
+        int toplam = sayi1 + sayi2 + sayi3 + sayi4;
+        int carpim = sayi1 * sayi2 * sayi3 * sayi4;
+
+        Console.WriteLine(" Bu sayilarin toplami:" + toplam);
+        Console.WriteLine("Bu sayilarin carpimi:" + carpim);
+
+        
+    }
+
+}
+        
+
+
+
