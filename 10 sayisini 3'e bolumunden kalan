@@ -1,0 +1,17 @@
+class Program
+{
+    static void Main ()
+    {
+        {
+            int sayi = 10;
+            int bolen = 3;
+            int kalan = sayi % bolen;
+            Console.WriteLine("10 sayisinin 3'e bolumunden kalan:" + kalan);
+
+        }
+        Console.ReadKey();
+          
+
+        }
+  
+     }
