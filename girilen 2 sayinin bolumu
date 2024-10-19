@@ -1,0 +1,27 @@
+using System;
+class Program
+
+{
+    static void Main()
+    {
+
+        Console.WriteLine("1.sayiyi giriniz:");
+        double sayi1 = double.Parse(Console.ReadLine());
+        Console.WriteLine("2.sayiyi giriniz:");
+        double sayi2 = double.Parse(Console.ReadLine());
+       
+        if(sayi2 != 0)
+        {
+            double bolum = sayi1 / sayi2;
+            Console.WriteLine("Girilen sayilarin bolumu:"+bolum);
+
+        }
+        else
+        {
+            Console.WriteLine("Hata: ikinci sayi 0 olamaz.");
+        }
+        
+    }
+
+}
+        
