@@ -1,0 +1,24 @@
+﻿using System;
+using System.Data.SqlTypes;
+
+class Program
+{
+    static void Main ()
+    {
+        {
+            int a = 9;
+            int b = 5;
+            int c = a - b;
+            Console.WriteLine("Farki:" + c);
+
+        }
+        Console.WriteLine("Farki:" + c);
+
+    }
+
+}
+
+       
+
+
+
