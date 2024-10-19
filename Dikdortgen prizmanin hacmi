@@ -1,0 +1,24 @@
+using System;
+class Program
+
+{
+    static void Main()
+    {
+
+        Console.WriteLine("Dikdortgen prizmanin uzunlugunu giriniz:");
+        double uzunluk = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("Dikdortgen prizmanin genisligini giriniz:");
+        double genislik = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("Dikdortgen prizmanin yuksekligi:");
+        double yukseklik = double.Parse(Console.ReadLine());
+
+        double hacim = uzunluk * genislik * yukseklik;
+
+        Console.WriteLine("Dikdortgen prizmanin hacmi:" + hacim);
+        
+    }
+
+}
+        
